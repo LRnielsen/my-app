@@ -3,6 +3,8 @@ name: testflow
 on:
   workflow_run:
     workflows: [ triggerflow ]    
+    branches: 
+      - feature/app
     types: 
       - completed
 
