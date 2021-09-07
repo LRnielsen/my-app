@@ -2,8 +2,7 @@ name: triggerflow
  
 on:
   push:  
-    branches-ignore:
-      - "main"
+
 jobs:
   trigger:
     name: test
